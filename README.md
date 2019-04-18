@@ -1,6 +1,6 @@
 # Clone
 
-`git clone https://github.com/bkudria/school-years-interview-question.git`
+`git clone https://github.com/raiseme/school-years-interview-question.git`
 
 # Install modules
 
