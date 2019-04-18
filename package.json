@@ -1,0 +1,48 @@
+{
+  "name": "raise-school-years-question",
+  "version": "0.0.1",
+  "description": "Rsaise.me School Years Interview Question",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaiseMe/school-years-interview-question.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config webpack.js tests",
+    "test": "npm run build && mocha 'dist/main'"
+  },
+  "author": "RaiseMe Engineering",
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-es6-promise": "^1.0.0",
+    "babel-plugin-provide-modules": "^1.0.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "es6-promise": "https://registry.npmjs.org/es6-promise/-/es6-promise-4.1.0.tgz",
+    "lodash": "^4.17.10",
+    "mocha": "^5.0.4",
+    "sinon": "^7.3.1",
+    "sinon-chai": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/plugin-transform-strict-mode": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-plugin-lodash": "^3.3.4",
+    "copy-webpack-plugin": "^4.5.2",
+    "file-loader": "^2.0.0",
+    "fs-extra": "^7.0.0",
+    "hard-source-webpack-plugin": "^0.12.0",
+    "only-if-changed-webpack-plugin": "0.0.2",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-merge": "^4.1.3"
+  }
+}
