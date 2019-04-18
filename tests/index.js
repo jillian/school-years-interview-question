@@ -6,7 +6,7 @@ import {
   consolidateSchoolYears,
 } from '../src';
 
-describe('parseSchoolYears', () => {
+describe.only('parseSchoolYears', () => {
   it('parses a simple case', () => {
     expect(parseSchoolYears(['2014-2015'])).to.eql([2014, 2015]);
   });
